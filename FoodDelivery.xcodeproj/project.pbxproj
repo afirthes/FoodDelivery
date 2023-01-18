@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		08E50FB729784F780099B787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FB629784F780099B787 /* AppDelegate.swift */; };
 		08E50FB929784F780099B787 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FB829784F780099B787 /* SceneDelegate.swift */; };
-		08E50FBB29784F780099B787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FBA29784F780099B787 /* ViewController.swift */; };
-		08E50FBE29784F780099B787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E50FBC29784F780099B787 /* Main.storyboard */; };
+		08E50FBB29784F780099B787 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FBA29784F780099B787 /* LoginViewController.swift */; };
 		08E50FC029784F7B0099B787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08E50FBF29784F7B0099B787 /* Assets.xcassets */; };
 		08E50FC329784F7B0099B787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E50FC129784F7B0099B787 /* LaunchScreen.storyboard */; };
+		08E50FCD297856C80099B787 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FCC297856C80099B787 /* GFTextField.swift */; };
+		08E50FCF2978595E0099B787 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FCE2978595D0099B787 /* GFButton.swift */; };
+		08E50FD229785B4B0099B787 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FD129785B4B0099B787 /* CategoriesViewController.swift */; };
+		08E50FD429785B660099B787 /* PizzaConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FD329785B660099B787 /* PizzaConfigurationViewController.swift */; };
+		08E50FD629785B830099B787 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FD529785B830099B787 /* PaymentViewController.swift */; };
+		08E50FD9297862C00099B787 /* PizzaCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FD8297862C00099B787 /* PizzaCategoryViewController.swift */; };
+		08E50FDB297863330099B787 /* GFFoodAddToCartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FDA297863330099B787 /* GFFoodAddToCartButton.swift */; };
+		08E50FDD29786A030099B787 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FDC29786A030099B787 /* GFTitleLabel.swift */; };
+		08E50FDF297877520099B787 /* GFBoolProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FDE297877520099B787 /* GFBoolProperty.swift */; };
+		08E50FE1297880A80099B787 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FE0297880A80099B787 /* GFBodyLabel.swift */; };
+		08E50FE3297881BF0099B787 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FE2297881BF0099B787 /* GFAlertVC.swift */; };
+		08E50FE5297881EC0099B787 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FE4297881EC0099B787 /* GFAlertContainerView.swift */; };
+		08E50FE82978823F0099B787 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E50FE72978823F0099B787 /* UIViewController+Extension.swift */; };
+		08E50FEB29788B240099B787 /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = 08E50FE929788B240099B787 /* .swiftformat */; };
+		08E50FEC29788B240099B787 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 08E50FEA29788B240099B787 /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		08E50FB329784F780099B787 /* FoodDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E50FB629784F780099B787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08E50FB829784F780099B787 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		08E50FBA29784F780099B787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		08E50FBD29784F780099B787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08E50FBA29784F780099B787 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		08E50FBF29784F7B0099B787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08E50FC229784F7B0099B787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08E50FC429784F7B0099B787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E50FCC297856C80099B787 /* GFTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		08E50FCE2978595D0099B787 /* GFButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		08E50FD129785B4B0099B787 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		08E50FD329785B660099B787 /* PizzaConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaConfigurationViewController.swift; sourceTree = "<group>"; };
+		08E50FD529785B830099B787 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		08E50FD8297862C00099B787 /* PizzaCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaCategoryViewController.swift; sourceTree = "<group>"; };
+		08E50FDA297863330099B787 /* GFFoodAddToCartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFoodAddToCartButton.swift; sourceTree = "<group>"; };
+		08E50FDC29786A030099B787 /* GFTitleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
+		08E50FDE297877520099B787 /* GFBoolProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBoolProperty.swift; sourceTree = "<group>"; };
+		08E50FE0297880A80099B787 /* GFBodyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
+		08E50FE2297881BF0099B787 /* GFAlertVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
+		08E50FE4297881EC0099B787 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
+		08E50FE72978823F0099B787 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		08E50FE929788B240099B787 /* .swiftformat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
+		08E50FEA29788B240099B787 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +68,8 @@
 		08E50FAA29784F770099B787 = {
 			isa = PBXGroup;
 			children = (
+				08E50FE929788B240099B787 /* .swiftformat */,
+				08E50FEA29788B240099B787 /* .swiftlint.yml */,
 				08E50FB529784F780099B787 /* FoodDelivery */,
 				08E50FB429784F780099B787 /* Products */,
 			);
@@ -56,15 +86,59 @@
 		08E50FB529784F780099B787 /* FoodDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				08E50FE6297882300099B787 /* Extensions */,
+				08E50FD029785B1F0099B787 /* CustomUI */,
+				08E50FCB29784FD20099B787 /* ViewControllers */,
+				08E50FCA29784FA60099B787 /* Support */,
+			);
+			path = FoodDelivery;
+			sourceTree = "<group>";
+		};
+		08E50FCA29784FA60099B787 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				08E50FB629784F780099B787 /* AppDelegate.swift */,
 				08E50FB829784F780099B787 /* SceneDelegate.swift */,
-				08E50FBA29784F780099B787 /* ViewController.swift */,
-				08E50FBC29784F780099B787 /* Main.storyboard */,
 				08E50FBF29784F7B0099B787 /* Assets.xcassets */,
 				08E50FC129784F7B0099B787 /* LaunchScreen.storyboard */,
 				08E50FC429784F7B0099B787 /* Info.plist */,
 			);
-			path = FoodDelivery;
+			path = Support;
+			sourceTree = "<group>";
+		};
+		08E50FCB29784FD20099B787 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				08E50FBA29784F780099B787 /* LoginViewController.swift */,
+				08E50FD129785B4B0099B787 /* CategoriesViewController.swift */,
+				08E50FD8297862C00099B787 /* PizzaCategoryViewController.swift */,
+				08E50FD329785B660099B787 /* PizzaConfigurationViewController.swift */,
+				08E50FD529785B830099B787 /* PaymentViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		08E50FD029785B1F0099B787 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				08E50FDC29786A030099B787 /* GFTitleLabel.swift */,
+				08E50FCC297856C80099B787 /* GFTextField.swift */,
+				08E50FE0297880A80099B787 /* GFBodyLabel.swift */,
+				08E50FCE2978595D0099B787 /* GFButton.swift */,
+				08E50FDA297863330099B787 /* GFFoodAddToCartButton.swift */,
+				08E50FDE297877520099B787 /* GFBoolProperty.swift */,
+				08E50FE2297881BF0099B787 /* GFAlertVC.swift */,
+				08E50FE4297881EC0099B787 /* GFAlertContainerView.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		08E50FE6297882300099B787 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				08E50FE72978823F0099B787 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +199,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08E50FEC29788B240099B787 /* .swiftlint.yml in Resources */,
 				08E50FC329784F7B0099B787 /* LaunchScreen.storyboard in Resources */,
 				08E50FC029784F7B0099B787 /* Assets.xcassets in Resources */,
-				08E50FBE29784F780099B787 /* Main.storyboard in Resources */,
+				08E50FEB29788B240099B787 /* .swiftformat in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +213,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08E50FBB29784F780099B787 /* ViewController.swift in Sources */,
+				08E50FE82978823F0099B787 /* UIViewController+Extension.swift in Sources */,
+				08E50FE1297880A80099B787 /* GFBodyLabel.swift in Sources */,
+				08E50FBB29784F780099B787 /* LoginViewController.swift in Sources */,
+				08E50FDB297863330099B787 /* GFFoodAddToCartButton.swift in Sources */,
+				08E50FE5297881EC0099B787 /* GFAlertContainerView.swift in Sources */,
+				08E50FCF2978595E0099B787 /* GFButton.swift in Sources */,
+				08E50FDD29786A030099B787 /* GFTitleLabel.swift in Sources */,
+				08E50FD229785B4B0099B787 /* CategoriesViewController.swift in Sources */,
+				08E50FDF297877520099B787 /* GFBoolProperty.swift in Sources */,
+				08E50FD629785B830099B787 /* PaymentViewController.swift in Sources */,
+				08E50FE3297881BF0099B787 /* GFAlertVC.swift in Sources */,
 				08E50FB729784F780099B787 /* AppDelegate.swift in Sources */,
+				08E50FD9297862C00099B787 /* PizzaCategoryViewController.swift in Sources */,
+				08E50FCD297856C80099B787 /* GFTextField.swift in Sources */,
 				08E50FB929784F780099B787 /* SceneDelegate.swift in Sources */,
+				08E50FD429785B660099B787 /* PizzaConfigurationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		08E50FBC29784F780099B787 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08E50FBD29784F780099B787 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		08E50FC129784F7B0099B787 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +369,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQ5FDJWTRX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FoodDelivery/Info.plist;
+				INFOPLIST_FILE = FoodDelivery/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +397,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQ5FDJWTRX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FoodDelivery/Info.plist;
+				INFOPLIST_FILE = FoodDelivery/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
